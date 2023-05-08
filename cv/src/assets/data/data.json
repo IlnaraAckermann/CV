@@ -1,0 +1,99 @@
+{
+  "skills": [
+    {
+      "name": "HTML 5",
+      "icon": "devicon-html5-plain",
+      "percent":95
+    },
+    {
+      "name": "CSS3",
+      "icon": "devicon-css3-plain",
+      "percent":95
+    },
+    {
+      "name": "Javascript",
+      "icon": "devicon-javascript-plain",
+      "percent":85
+    },
+    {
+      "name": "Angular",
+      "icon": "devicon-angularjs-plain",
+      "percent":85
+    },
+    {
+      "name": "React",
+      "icon": "devicon-react-original",
+      "percent":75
+    },
+    {
+      "name": "Java",
+      "icon": "devicon-java-plain",
+      "percent":70
+    },
+    {
+      "name": "Kotlin",
+      "icon": "devicon-kotlin-plain",
+      "percent":65
+    },
+    {
+      "name": "MySQL",
+      "icon": "devicon-mysql-plain",
+      "percent":65
+    },
+    {
+      "name": "Canva",
+      "icon": "devicon-canva-original",
+      "percent":75
+    },
+    {
+      "name": "Photoshop",
+      "icon": "devicon-photoshop-line",
+      "percent":75
+    }
+  ],
+  "certificates": [
+    {
+      "title":"Bootcamp Banco PAN Java Developer",
+      "school": "DIO",
+      "duration": "114hrs",
+      "conclusion": "2023",
+      "certificate":"https://www.dio.me/certificate/8D3822C0"
+    },
+    {
+      "title":"Codecamp | 1st Edition - JavaScrip",
+      "school": "DIO",
+      "duration": "14hrs",
+      "conclusion": "2023",
+      "certificate":"https://www.dio.me/certificate/74C6A9CB"
+    },
+    {
+      "title":"Potência Tech Angular Developer",
+      "school": "DIO",
+      "duration": "75hrs",
+      "conclusion": "2023",
+      "certificate":"https://www.dio.me/certificate/33993889"
+    },
+    {
+      "title":"Bacharelado Administração",
+      "school": "UniSEB",
+      "duration": "",
+      "conclusion": "2013",
+      "certificate":""
+    },
+    {
+      "title":"Bacharelado Sistemas de Informações",
+      "school": "ESAB",
+      "duration": "",
+      "conclusion": "2025",
+      "certificate":""
+    }
+  ],
+  "projects":[
+    {
+      "title":"PokeDex",
+      "imagem":"../../../assets/img/pokedex.png",
+      "detail":"Site desenvolvido em HTML, CSS e JavaScript para o consumo da PokeAPI. Neste projeto pude aprender sobre o consumos de API com JS.",
+      "repo": "https://github.com/IlnaraAckermann/Pokedex"
+    }
+  ]
+}

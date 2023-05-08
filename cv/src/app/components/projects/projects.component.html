@@ -1,0 +1,30 @@
+<div class="content">
+
+  <h2>Projetos</h2>
+
+
+  <div class="projects" *ngFor="let project of projects">
+
+    <div class="project">
+      <div class="title">
+        <h3>{{project.title}}</h3>
+      </div>
+
+      <hr>
+
+      <div class="details">
+        <p>
+          {{project.detail}}
+        </p>
+
+        <p>Repositório do GitHub: <a href="{{project.repo}}" target="_blank" rel="noopener noreferrer">clique aqui!</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="imagem">
+      <img src="{{project.imagem}}" [alt]="project.title">
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,17 @@
+<div class="content">
+
+
+  <div class="certificate" *ngFor="let certificate of certificates">
+    <div class="title">{{certificate.title}} </div>
+    <hr>
+    <ul class="details">
+      <li *ngIf="certificate.school">Instituição: <span>{{certificate.school}}</span></li>
+      <li *ngIf="certificate.duration" >Duração: <span>{{certificate.duration}}</span></li>
+      <li *ngIf="certificate.conclusion">Conclusão: <span>{{certificate.conclusion}}</span></li>
+      <li *ngIf="certificate.certificate"><a href="{{certificate.certificate}}" target="_blank" rel="noopener noreferrer">Certificado</a>
+      </li>
+    </ul>
+  </div>
+
+
+</div>

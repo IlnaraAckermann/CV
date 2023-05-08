@@ -1,0 +1,31 @@
+.content{
+  display: grid;
+  grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));
+  gap:2rem;
+}
+
+.certificate{
+  max-width: 300px;
+  padding: 2rem;
+  background-color: var(--secondary-dark-medium-color);
+}
+.title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--primary-ligth-color);
+  margin-bottom: 1rem;
+}
+.details {
+  list-style: none;
+  margin-top: 1rem;
+}
+.details > li {
+  list-style: none;
+  margin-top: 0.25rem;
+  font-weight: 500;
+}
+li span {
+  color: var(--primary-soft-color);
+  list-style: none;
+  margin-top: 0.25rem;
+}

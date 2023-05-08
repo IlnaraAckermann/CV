@@ -1,0 +1,25 @@
+.content {
+  overflow: hidden;
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.imagem {
+  min-width: 300px;
+  aspect-ratio: 1 / 1;
+  background: url("../../../assets/img/avatar.jpg") no-repeat center center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+@media (min-width: 900px){
+
+  .content{
+    flex-direction: row;
+  }
+
+}

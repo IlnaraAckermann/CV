@@ -1,0 +1,41 @@
+
+h2 {
+  margin: 1rem 0;
+}
+#contact-form {
+  text-align: center;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+#contact {
+  max-width: 90%;
+  margin: 0 auto;
+}
+input, textarea, button {
+  width: 100%;
+  padding: 0.5em;
+  border: none;
+  font: 300 100%/1.2 Ubuntu, sans-serif;
+  margin: 0 0 1em;
+}
+textarea {
+  height: 8em;
+}
+input[type="submit"]{
+  background: var(--primary-ligth-color);
+}
+input[type="submit"]:hover{
+  background: var(--primary-soft-color);
+}
+input[type="submit"]:hover:active {
+  background: var(--primary-soft-color);
+  transform: translateY(5px);
+}
+
+
+@media (min-width: 900px){
+  #contact {
+    max-width: 50%;
+  }
+}

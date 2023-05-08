@@ -1,0 +1,19 @@
+.content{
+  padding: 1.5rem;
+}
+h2{
+  padding: 2rem 0;
+}
+p{
+  padding: 0.5rem 0;
+}
+
+@media (min-width: 900px){
+  .sobre-skill{
+    display: flex;
+    justify-content: space-between;
+  }
+  .skills, .sobre{
+    width: 45%;
+  }
+}

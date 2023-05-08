@@ -1,0 +1,17 @@
+
+<div class="content">
+  <div class="skill" *ngFor="let skill of skills">
+    <div class="skill-bar">
+      <i
+      class="{{skill.icon}}"
+      title="{{skill.name}}"
+      ></i>
+    </div>
+    <div class="bar">
+      <div
+      class="fill"
+      [ngStyle]="{'width': skill.percent+'%'}"
+      >
+      </div>
+    </div>
+  </div>

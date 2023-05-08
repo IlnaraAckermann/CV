@@ -1,0 +1,45 @@
+@import url('https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css');
+
+.content{
+  display: flex;
+  flex-direction: column;
+}
+
+.skill{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-bar{
+  display: flex;
+  font-size: 3rem;
+  margin: 1rem 0;
+
+}
+
+.bar{
+  height:2rem;
+  width: 100%;
+  margin: 0 1rem;
+  background-color: var(--secondary-dark-ligth-color);
+}
+
+.fill {
+  background-color: var(--primary-soft-color);
+  height:100%;
+}
+
+@media (min-width: 900px){
+
+  .content {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .skill {
+    width: 50%;
+  }
+
+}
