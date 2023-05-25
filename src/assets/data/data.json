@@ -67,11 +67,24 @@
       "certificate":"https://www.dio.me/certificate/74C6A9CB"
     },
     {
+      "title":"Codecamp | 2st Edition - C",
+      "school": "DIO",
+      "duration": "18hrs",
+      "conclusion": "2023",
+      "certificate":"https://www.dio.me/certificate/9691D335"
+    },
+    {
       "title":"Potência Tech Angular Developer",
       "school": "DIO",
       "duration": "75hrs",
       "conclusion": "2023",
       "certificate":"https://www.dio.me/certificate/33993889"
+    },{
+      "title":"Formação JavaScript Developer",
+      "school": "DIO",
+      "duration": "39hrs",
+      "conclusion": "2023",
+      "certificate":"https://www.dio.me/certificate/56F932BD"
     },
     {
       "title":"Bacharelado Administração",

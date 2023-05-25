@@ -2,10 +2,10 @@
   display: grid;
   grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));
   gap:2rem;
+  justify-content: center;
 }
 
 .certificate{
-  max-width: 300px;
   padding: 2rem;
   background-color: var(--secondary-dark-medium-color);
 }
