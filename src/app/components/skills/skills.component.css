@@ -29,7 +29,15 @@
 .fill {
   background-color: var(--primary-soft-color);
   height:100%;
+  animation: widthAnimation 2s ;
 }
+
+@keyframes widthAnimation {
+  0% {
+    width: 0%;
+  }
+}
+
 
 @media (min-width: 900px){
 
