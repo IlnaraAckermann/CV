@@ -2,8 +2,16 @@
 
 
   <div class="certificate" *ngFor="let certificate of certificates">
+
+
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+
     <div class="title">{{certificate.title}} </div>
     <hr>
+
     <ul class="details">
       <li *ngIf="certificate.school">Instituição: <span>{{certificate.school}}</span></li>
       <li *ngIf="certificate.duration" >Duração: <span>{{certificate.duration}}</span></li>

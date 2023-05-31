@@ -6,9 +6,12 @@
 }
 
 .certificate{
+  position: relative;
   padding: 2rem;
   background-color: var(--secondary-dark-medium-color);
 }
+
+
 .title {
   font-size: 1.25rem;
   font-weight: 600;
@@ -29,3 +32,116 @@ li span {
   list-style: none;
   margin-top: 0.25rem;
 }
+
+
+/* animação de borda */
+
+/*
+
+
+.certificate > span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  box-sizing: border-box;
+
+}
+
+.certificate > span:nth-child(1)
+{
+  transform:rotate(0deg);
+}
+
+.certificate > span:nth-child(2)
+{
+  transform:rotate(0deg);
+}
+
+.certificate > span:nth-child(3)
+{
+  transform:rotate(180deg);
+}
+
+.certificate > span:nth-child(4)
+{
+  transform:rotate(180deg);
+}
+
+.certificate > span::before {
+  content: '';
+  position: absolute;
+  background: #50dfdb;
+}
+
+.certificate:hover > span::before {
+  background: #df50da;
+}
+
+
+.certificate > span:nth-child(odd)::before{
+  width:100%;
+  height: 2px;
+  animation: animatew 4s linear infinite;
+}
+
+.certificate > span:nth-child(even)::before{
+  height:100%;
+  width: 2px;
+  animation: animateh 4s linear infinite;
+}
+
+@keyframes animatew {
+  0% {
+  transform:scaleX(0);
+  transform-origin: left;
+  }
+  50%
+  {
+    transform:scaleX(1);
+  transform-origin: left;
+  }
+  50.1%
+  {
+    transform:scaleX(1);
+  transform-origin: right;
+
+  }
+
+  100%
+  {
+    transform:scaleX(0);
+  transform-origin: right;
+
+  }
+
+
+}
+@keyframes animateh {
+  0% {
+  transform:scaleY(0);
+  transform-origin: top;
+  }
+  50%
+  {
+    transform:scaleY(1);
+  transform-origin: top;
+  }
+  50.1%
+  {
+    transform:scaleY(1);
+  transform-origin: bottom;
+
+  }
+
+  100%
+  {
+    transform:scaleY(0);
+  transform-origin: bottom;
+
+  }
+
+
+} */
