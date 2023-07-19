@@ -13,7 +13,7 @@
     {
       "name": "Javascript",
       "icon": "devicon-javascript-plain",
-      "percent":85
+      "percent":95
     },
     {
       "name": "Angular",
@@ -43,7 +43,7 @@
     {
       "name": "Canva",
       "icon": "devicon-canva-original",
-      "percent":75
+      "percent":80
     },
     {
       "name": "Photoshop",
@@ -104,6 +104,13 @@
       "school": "ESAB",
       "duration": "",
       "conclusion": "2025",
+      "certificate":""
+    },
+    {
+      "title":"Full Stack",
+      "school": "Recode Pro",
+      "duration": "",
+      "conclusion": "Cursando",
       "certificate":""
     }
   ],
