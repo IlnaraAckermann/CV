@@ -112,6 +112,13 @@
       "duration": "",
       "conclusion": "Cursando",
       "certificate":""
+    },
+    {
+      "title":"Potência Tech powered by iFood | Ciência de Dados",
+      "school": "DIO",
+      "duration": "80",
+      "conclusion": "2023",
+      "certificate":"https://www.dio.me/certificate/12FFC211"
     }
   ],
   "projects":[
@@ -120,6 +127,18 @@
       "imagem":"../../../assets/img/pokedex.png",
       "detail":"Site desenvolvido em HTML, CSS e JavaScript para o consumo da PokeAPI. Neste projeto pude aprender sobre o consumos de API com JS.",
       "repo": "https://github.com/IlnaraAckermann/Pokedex"
+    },
+    {
+      "title":"Portifólio",
+      "imagem":"../../../assets/img/portifolio.png",
+      "detail":"Portifólio desenvolvido em Angular",
+      "repo": "https://github.com/IlnaraAckermann/CV"
+    },
+    {
+      "title":"MagicTrip",
+      "imagem":"../../../assets/img/magictrip.png",
+      "detail":"Portifólio desenvolvido em Angular",
+      "repo": "https://github.com/IlnaraAckermann/MagicTrip"
     }
   ]
 }
