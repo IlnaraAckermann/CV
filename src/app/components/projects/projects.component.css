@@ -1,3 +1,4 @@
+
 .content {
   padding: 2rem;
 }
@@ -35,7 +36,7 @@ img{
   aspect-ratio: 16/9;
   object-fit: cover;
   filter: saturate(0) brightness(0.5) opacity(0.5) ;
-  transition: 0.5s ease-in-out;
+
 }
 
 .imagem{
@@ -43,10 +44,20 @@ img{
   max-width:650px;
   height: fit-content;
   margin-bottom: 2rem;
+
 }
 
 img:hover{
-  filter: saturate(1) opacity(1) brightness(1);
+  animation: filtroHover 0.5s ease-in-out forwards;
+}
+
+@keyframes filtroHover {
+  from {
+    filter: saturate(0) brightness(0.5) opacity(0.5);
+  }
+  to {
+    filter: saturate(1) brightness(1) opacity(1);
+  }
 }
 
 @media (min-width: 900px){
