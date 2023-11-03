@@ -22,13 +22,13 @@ input, textarea, button {
 textarea {
   height: 8em;
 }
-input[type="submit"]{
+button[type="submit"]{
   background: var(--primary-ligth-color);
 }
-input[type="submit"]:hover{
+button[type="submit"]:hover{
   background: var(--primary-soft-color);
 }
-input[type="submit"]:hover:active {
+button[type="submit"]:hover:active {
   background: var(--primary-soft-color);
   transform: translateY(5px);
 }
